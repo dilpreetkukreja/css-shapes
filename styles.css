@@ -1,0 +1,154 @@
+body{
+    margin: 30px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+    
+h1{
+    /* text-align: center; */
+}
+h2{
+    text-decoration: underline;
+}
+.dodge-viper-1{
+    /* border: 1px solid red; */
+    width: 400px;
+    float: left;
+    shape-margin: 10px;
+    shape-outside: polygon(0.7rem 9.7rem, 2.5rem 5.95rem, 8.5rem 4.9rem, 12.8rem 2.9rem, 15.5rem 2.2rem, 21.05rem 2.9rem, 24.5rem 5rem, 24.2rem 10.65rem, 16rem 13.55rem, 1.4rem 13.65rem);
+    color: red;
+    /* clip-path: polygon(11px 155px, 40px 95px, 136px 78px, 205px 46px, 248px 35px, 337px 46px, 392px 80px, 387px 170px, 256px 217px, 22px 218px); */
+}
+.clr-float{
+    clear: both;
+}
+
+.dodge-viper-2{
+    width: 400px;
+    float:left;
+    shape-outside: ellipse(189px 91px at 49.75% 55.5%);
+    clip-path: ellipse(189px 91px at 49.75% 55.5%);
+    shape-margin: 10px;
+}
+.dodge-viper-circle{
+    width: 400px;
+    float: left;
+    shape-outside: circle(178px at 51.25% 59.95%);
+    clip-path: circle(178px at 51.25% 59.95%);
+}
+.dodge-viper-3{
+    width: 350px;
+    float: left;
+    clip-path: polygon(6px 115px, 65px 84px, 116px 74px, 184px 34px, 349px 65px, 350px 263px, 351px 164px, 220px 219px, -2px 204px);
+    shape-outside: polygon(6px 115px, 65px 84px, 116px 74px, 184px 34px, 349px 65px, 348px 165px, 349px 165px, 220px 219px, -2px 204px);
+}
+.dodge-viper-4{
+    width: 350px;
+    float: right;
+    shape-outside: polygon(31px 84px, 184px 40px, 323px 56px, 349px 199px, 2px 195px);
+    clip-path: polygon(31px 84px, 184px 40px, 323px 56px, 349px 199px, 2px 195px);
+    
+}
+.img-5{
+    text-align: center;
+}
+.left-triangle{
+
+
+    float: left;
+    width: 400px;
+    height: 400px;
+    shape-outside: polygon(0px 0px, 180px 186px, 400px 400px, 0px 400px);
+}
+.right-triangle{
+ 
+    float: right;
+    width: 400px;
+    height: 400px;
+    shape-outside: polygon(247px 157px, 400px 0px, 400px 400px, 0px 400px);
+}
+.left-triangle-z-shape{
+    float: left;
+    width: 300px;
+    height: 300px;
+    shape-outside: polygon(0px 0px, 300px 0px, 152px 147px, 0px 300px);
+    /* shape-outside: polygon(0px 0px, 400px 0px, 199px 200px, 0px 400px); */
+}
+.right-triangle-z-shape{
+    float: right;
+    width: 300px;
+    height: 300px;
+    shape-outside: polygon(178px 125px, 300px 0px, 300px 300px, 0px 300px);
+    /* shape-outside: polygon(227px 175px, 400px 0px, 400px 400px, 0px 400px); */
+}
+.left-container{
+    /* border: 1px solid red; */
+    float:left; width:70%;
+}
+table {
+    border-collapse: collapse;
+    width: 20%;
+    font-size: 12px;
+    /* border: 1px solid red; */
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.curve{
+    width: 100%;
+    float:left;    
+    shape-outside: polygon(0px 0px, 228px 0px, 222px 52px, 219px 95px, 228px 145px, 245px 196px, 274px 235px, 304px 266px, 349px 297px, 389px 321px, 434px 339px, 476px 351px, 518px 364px, 584px 381px, 653px 395px, 784px 420px, 935px 441px, 975px 446px, 979px 551px, 0px 551px);
+    
+    shape-margin: 80px;
+    /* border: 1px solid red; */
+
+   
+}
+.curve-container{
+    position: relative;
+}
+.dodge-viper-6{
+    width: 30vw;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    
+}
+.rotated-container{
+    /* overflow: auto; */
+    transform: rotate(-10deg);
+    width:80%;
+    margin: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.rotated-left{  
+
+    float: left;
+    width: 40%;
+    transform: rotate(10deg);
+    margin-top: 40px;
+    shape-outside: polygon(7px 129px, 43px 106px, 150px 59px, 308px 89px, 316px 180px, 305px 188px, 0px 248px);
+    shape-margin:70px;
+ 
+}
+.rotated-right{
+
+}
+.rotated-heading{
+    background-color: #eee;
+   
+    /* width: 50%;
+   margin-left:45%;
+   
+   text-align:center; */
+}

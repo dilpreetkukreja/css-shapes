@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #image-sculptor {
+            display: block;
+            height: 321px;
+            width: 600px;
+            margin:auto;
+        }
+        #image-sculptor-overlay {
+            float: left;
+            height: 100%;
+            width: 100%;
+            -webkit-shape-outside: polygon(100% 100%, 0% 100%, 0% 0%, 68% 0%, 74% 15%, 70% 50%);
+                    shape-outside: polygon(100% 100%, 0% 100%, 0% 0%, 68% 0%, 74% 15%, 70% 50%);
+        }
+    </style>
+</head>
+<body>
+        <div id="image-sculptor" style="background:url(https://s3-us-west-2.amazonaws.com/blog.cherysh/2016/Apr/sculpting-1460436288043.jpeg);background-size:cover">
+            <div id="image-sculptor-overlay" sytle="background:url(https://s3-us-west-2.amazonaws.com/blog.cherysh/2016/Apr/sculptingOutline-1460705174245.png)">
+            </div>
+            <div id="text-sculptor" font-to-height="0.1" line-height-ratio="1"><span>"The essence of all art is to have pleasure in giving pleasure""The essence of all art is to have pleasure in giving pleasure""The essence of all art is to have pleasure in giving pleasure" "The essence of all art is to have, "The essence of all art is to have "The essence of<br>-Dale Carnegie</span>
+            </div>
+        </div>
+    
+</body>
+</html>
